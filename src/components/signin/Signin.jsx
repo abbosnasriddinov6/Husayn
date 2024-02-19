@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Signin.scss'
 import { logo, reytingimg } from '../../assets'
+import { NavLink } from 'react-router-dom'
 const Signin = () => {
   const [signin,setsignin]=useState('')
   const [forgot,setforgot]=useState(true)
@@ -32,7 +33,7 @@ const Signin = () => {
              
 
               <span>Forget Password ?</span>
-              <button>SIGN IN</button>
+          <NavLink to='/home'> <button>SIGN IN</button></NavLink>
               <h6>Create A New Account? <span>Sign Up</span></h6>
             </form>
 

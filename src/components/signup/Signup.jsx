@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import './Signup.scss'
 import { logo, reytingimg } from '../../assets'
-import { useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 const Signup = ({signin,setsignin}) => {
   const [forgot,setforgot]=useState(true)
 
 
   const navigate=useNavigate()
-  const register=()=>{
-    {signin,length>0?navigate('/'):null}
-  }
 
 
 
@@ -49,7 +46,7 @@ const Signup = ({signin,setsignin}) => {
              
 
               <span>Forget Password ?</span>
-              <button onClick={register}>SIGN UP</button>
+          <NavLink to='/signin'> <button >SIGN UP</button></NavLink>
               <h6>Create A New Account? <span>Sign Up</span></h6>
             </form>
 
