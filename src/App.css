@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     position: fixed; 
+    border-bottom: 1px solid rgb(173, 165, 165);
+    background-color: white;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.login{
+    color: #606060;
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.login:hover{
+    background: #6C5FBC;
+    color: white;
+    transition: 0.5s;
+
+
+}
+.signup{
+    color: #606060;
+    border: none;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 13px;
+    background: #6C5FBC;
+
+
+}
+.signup:hover{
+    background-color: white;
+    color: #6C5FBC;
+    transition: 0.5s;
+}
+li{
+    cursor: pointer;
+    font-size: 20px;
+}
+.korzinka{
+    cursor: pointer;
+}
+.active{
+    color: #272525;
+}
+button:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.kty{
+    display: none;
+}
+#bars{
+    display: none;
+}
+.ll{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .app{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 200px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    nav{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+         position: fixed; 
+        border-bottom: 1px solid rgb(173, 165, 165);
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+        display: none;
+    }
+    .imge{
+        display: block;
+    }
+    .login{
+        color: #606060;
+        background-color: transparent;
+        border: none;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    
+    }
+    
+    .login:hover{
+        background: #6C5FBC;
+        color: white;
+        transition: 0.5s;
+    
+    
+    }
+    .signup{
+        color: #606060;
+        border: none;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        border-radius: 13px;
+        background: #6C5FBC;
+    }
+    .signup:hover{
+        background-color: white;
+        color: #6C5FBC;
+        transition: 0.5s;
+    }
+    li{
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .korzinka{
+        cursor: pointer;
+    }
+    .active{
+        color: #272525;
+    }
+    button:hover{
+        cursor: pointer;
+        transition: 0.4s;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    }
+    
+    .ull{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #bars{
+        display: block;
+        font-size: 38px;
+        cursor: pointer;
+        
+    }
+
+
+    .kty{
+        width: 150px;
+        height: 440px;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(209, 195, 195);
+        padding-top: 70px;
+        transition: 1s;
+        
+    }
+    .kty ,ul,i,li,button{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        font-size: 22px;
+        cursor: pointer;
+
+        
+    }
+    .ll{
+        display: none;
+        font-size: 22px;
+    }
+    .korzinkaimg{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+
+    }
+}
+
+
+@media screen  and (max-width:375px){
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

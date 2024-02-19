@@ -1,0 +1,12 @@
+.navbar{
+    nav{
+        z-index: 1000;
+        .redd{
+            display: flex;
+            flex-direction: column;
+            background-color: red;
+            color: white;
+        
+        }
+    }
+}

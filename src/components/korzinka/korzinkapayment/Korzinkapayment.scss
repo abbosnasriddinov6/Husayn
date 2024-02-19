@@ -1,0 +1,131 @@
+.korzinkapayment{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .borders{
+        width: 38%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        button{
+            width: 50%;
+            margin-top: 50px;
+            padding: 20px;
+            border-radius: 10px;
+            border: none;
+            background: #6C5FBC;
+            color: white;
+
+
+        }
+
+        .border{
+            width: 100%;
+            border-bottom: 2px dashed rgb(180, 173, 173);
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            h3{
+                color: rgb(158, 155, 155);
+            font-family: "Inter", sans-serif;
+
+            }
+        }
+
+
+
+        .bordersiz{
+            width: 100%;
+            border-bottom: 2px dashed white;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            h2{
+                color: #323142;
+
+            font-family: "Inter", sans-serif;
+
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+    .korzinkapayment{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        .borders{
+            width: 78%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            button{
+                width: 90%;
+                margin-top: 50px;
+                padding: 10px;
+                border-radius: 10px;
+                border: none;
+                background: #6C5FBC;
+                color: white;
+    
+    
+            }
+    
+            .border{
+                width: 100%;
+                border-bottom: 2px dashed rgb(180, 173, 173);
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                h3{
+                    color: rgb(158, 155, 155);
+                font-family: "Inter", sans-serif;
+    
+                }
+            }
+    
+    
+    
+            .bordersiz{
+                width: 100%;
+                border-bottom: 2px dashed white;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 20px;
+                h2{
+                    color: #323142;
+    
+                font-family: "Inter", sans-serif;
+    
+                }
+            }
+        }
+    }
+    
+}
